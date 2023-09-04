@@ -8,7 +8,8 @@ import model.Hotel;
 import model.Train;
 
 public class FareCalculator extends Booking{
-     public double book(Flight flight) {
+    
+    public double book(Flight flight) {
 
         double totalFare = booking(flight.getNoOfPersons(),flight.getRates());
 
